@@ -7,7 +7,7 @@ namespace Terminal_files
     {
         public static void Main()
         {
-            Console.WriteLine("enter the number of files/введите число файлов цыфрой");
+            Console.WriteLine("enter the number of files");
 
             string filesD = Console.ReadLine();
             int files = Convert.ToInt32(filesD);
@@ -23,7 +23,7 @@ namespace Terminal_files
 
             while (true)
             {
-                Console.WriteLine("change file value/измените значение (type 'redact file' to edit, 'clear' to delete all files, or 'exit' to quit):");
+                Console.WriteLine("change file value (type 'redact file' to edit, 'clear' to delete all files, or 'exit' to quit):");
                 string bd = Console.ReadLine();
                 if (bd == "redact file")
                 {
@@ -68,4 +68,3 @@ namespace Terminal_files
         }
     }
 }
-
